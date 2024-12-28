@@ -33,3 +33,20 @@ finally:
 Cannot divide by zero!
 Execution complete.
 ```
+## 4. try, except, else, and finally Blocks
+try: Code that might raise an exception.
+except: Code to handle exceptions.
+else: Executes if no exceptions occur.
+finally: Always executes, whether there’s an exception or not.
+
+```python
+try:
+    number = int(input("Enter a number: "))
+except ValueError:
+    print("That's not a valid number!")
+else:
+    print(f"Success, you entered {number}.")
+finally:
+    print("This will always be executed.")
+```
+### output
